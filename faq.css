@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2022, 9:48:06 PM
+    Author     : vince
+*/
+body{
+    width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+    
+}
+.top-nav{
+    height: 75px;
+    background-color: white;
+    color: orange;
+    overflow: hidden;
+}
+h2{
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.faq-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.faq-block{
+    
+    width: 900px;
+    height: 700px;
+    margin-top: 60px;
+}
+header{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+hr{
+    width: 700px;
+    border-bottom: 1px solid lightgray;
+     border: none;
+    background-color: lightgray;
+    color: #333;
+    border-bottom: 1px solid lightgray;
+}
+a{
+    color: orange;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+}
+ul{
+    text-align: center;
+    margin-right: 40px;
+}
+input{
+    float: right;
+    margin-right: 10px;
+}
+button{
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+.faq-block p{
+    color: orange;
+    margin: 5px;
+}
+.faq-block footer{
+    margin-top: 210px;
+    text-align: left;
+}
+p{
+    color: orange;
+    margin-top: 70px;
+   
+}

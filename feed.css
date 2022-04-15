@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2022, 5:12:00 PM
+    Author     : vince
+*/
+body{
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+.feed-bar{
+    width: 100%;
+    background-color: #3b5998;
+    height: 110px;
+    overflow: hidden;
+    border-bottom: 1px solid lightgrey;
+}
+h1{
+    color: white;
+    font-size:50px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.google-block{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+}
+.google{
+    height: auto;
+    width: auto;
+    text-align: center;
+   margin: 0px;
+}
+.google h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+form p{
+    margin: 0px;
+    text-align: right;
+    color: white;
+}
+form{
+    margin-top: 30px;
+}
+.google p{
+    text-align: right;
+    margin-top: -40px;
+    margin-left: 5px;
+    color: white;
+}
+.h1-block{
+    margin-top: -15px;
+    margin-right: 40px;
+   
+}
+.nav-bar{
+    height: 50px;
+    width: 800px;
+    border-bottom: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-radius: 0px 0px 5px 5px;
+  
+}
+.nav-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content-block1{
+    border: 1px solid lightgrey;
+    height: 400px;
+    width: 200px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+.content-block2{
+    margin-top: 15px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 0px 0px 5px 5px;
+}
+.nav-bar form{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: 9px;
+}
+.nav-bar form input{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+}
+.nav-bar ul{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: -36px;
+    margin-right: 12px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #3b5998;
+}
+.nav-bar li{
+    display: inline-block;
+    margin: 5px;
+}
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #3b5998;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2022, 8:50:56 PM
+    Author     : vince
+*/
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+}
+.help-nav{
+    height: 140px;
+    background-color: #3b5998;
+    color: orange;
+    overflow: hidden;
+}
+.help-nav h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 590px;
+   font-family: 'Fjalla One', sans-serif;
+   letter-spacing: 1px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.help-info{
+    width: 200px;
+    height: 500px;
+    margin-top: 120px;
+}
+.help-info p{
+    text-align: center;
+}
+.help-block{
+    width: 600px;
+    height: auto;
+    border-left: 1px solid lightgrey;
+    margin-top: 120px;
+}
+.help-block form{
+    margin-left: 15px;
+}
+.help-info header{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    
+}
+hr{
+      border: none;
+    background-color: lightgray;
+    color: #333;
+    border-bottom: 1px solid lightgray;
+    width: 150px;
+}
+.help-info form{
+    width: 200px;
+    
+}
+.help-info form ul{
+    width: 200px;
+   margin-top: -5px;
+    list-style: none;
+    text-decoration: none;
+}
+.help-info form ul a{
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 17px;
+    
+}
+li{
+    margin: 5px;
+}
+footer{
+
+    margin: 5px;
+    margin-top: 230px;
+    text-align: center;
+}
+h1{
+    text-align: left;
+    font-size: 32px;
+    color: black;
+    margin: 0;
+    margin-top: -5px;
+}
+p{
+    text-align: left;
+}
